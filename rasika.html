@@ -1,0 +1,177 @@
+[11:48 am, 17/1/2025] Meta AI: <!DOCTYPE html>
+<html>
+<head>
+	<title>Education Blog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Education Blog</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Articles</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Latest Articles</h2>
+			<ul>
+				<li>
+					<h3>Article 1</h3>
+					<p>This is the content of article 1.</p>
+				</li>
+				<li>
+					<h3>Article 2</h3>
+					<p>This is the content of article 2.</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Categories</h2>
+			<ul>
+				<li><a href="#">Mathematics</a></li>
+				<li><a href="#">Science</a></li>
+				<li><a href="#">Technology</a></li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Education Blog</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+# CSS (in style.css file)
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #f7f7f7;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+
+
+# JavaScript (in script.js file)
+
+// Add event listener to nav links
+document.addEventListener("DOMContentLoaded", function() {
+	const navLinks = document.querySelectorAll("nav a");
+	navLinks.forEach(function(link) {
+		link.addEventListener("click", function(event) {
+			event.preventDefault();
+			const target = event.target.getAttribute("href");
+			document.querySelector(target).scrollIntoView({ behavior: "smooth" });
+		});
+	});
+});
+
+[11:54 am, 17/1/2025] salonibhoyar: Blog code for business
+[11:54 am, 17/1/2025] Meta AI: Here is a sample code for a basic business blog using HTML, CSS, and JavaScript:
+
+# HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Blog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Business Blog</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Latest Posts</h2>
+			<ul>
+				<li>
+					<h3>Post 1</h3>
+					<p>This is the content of post 1.</p>
+				</li>
+				<li>
+					<h3>Post 2</h3>
+					<p>This is the content of post 2.</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Our Services</h2>
+			<ul>
+				<li><a href="#">Consulting</a></li>
+				<li><a href="#">Marketing</a></li>
+				<li><a href="#">Web Development</a></li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Business Blog</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
